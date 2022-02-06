@@ -14,7 +14,8 @@ print(tokenizer.encode("良い天気だね。"))
 
 to avoid ambiguous attempts at tokenization by language models, ban them from generating:
 
-```[37605]
+```
+[37605]
 [22522]
 [5099]
 [39752]
@@ -24,4 +25,5 @@ to avoid ambiguous attempts at tokenization by language models, ban them from ge
 [40367]
 [47571]
 [15790] 
-[40265]```
+[40265]
+```
