@@ -8,7 +8,7 @@ clone this repo and inside run this code to load the tokenizer from the gpt2-gen
 ```python
 from transformers import GPT2Tokenizer
 
-tokenizer = GPT2Tokenzier.from_pretrained("gpt2-genji")
+tokenizer = GPT2Tokenizer.from_pretrained("gpt2-genji")
 print(tokenizer.encode("良い天気だね。"))
 ```
 
