@@ -3,6 +3,8 @@ huggingface transformers compatible GPT2Tokenizer files for genji-v2 model
 
 ## usage
 
+clone this repo and inside run this code to load the tokenizer from the gpt2-genji folder
+
 ```python
 from transformers import GPT2Tokenizer
 
